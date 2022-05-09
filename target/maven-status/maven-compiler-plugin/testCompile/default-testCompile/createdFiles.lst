@@ -1,0 +1,7 @@
+tasks/ClickOn.class
+Potentivio/CucumberTestSuite.class
+Potentivio/stepdefinitions/LoginStepDef.class
+tasks/NavigateTo.class
+Potentivio/pageobjects/PotentivioLoginPageObjects.class
+tasks/InputText.class
+Potentivio/stepdefinitions/ParameterDefinitions.class
