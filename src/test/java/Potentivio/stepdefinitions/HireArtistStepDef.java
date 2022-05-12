@@ -11,14 +11,14 @@ import tasks.VerifyDisplayed;
 
 public class HireArtistStepDef {
 
-    @And("{actor} access artist list")
+    @When("{actor} access artist list")
     public void accessArtist(Actor actor) throws Exception {
         actor.wasAbleTo(NavigateTo.theURL("Cafe Owner Home Page"),
                 VerifyDisplayed.element("Artist List")
         );
     }
 
-    @When("{actor} select artist from list")
+    @Then("{actor} select artist from list")
     public void iSelectArtistFromList(Actor actor) throws Exception {
         actor.attemptsTo(
                 ClickOn.artistList()
