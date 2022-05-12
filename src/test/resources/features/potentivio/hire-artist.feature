@@ -6,11 +6,15 @@ Feature: Potentivio - Hire Artist
     When I click button Cafe Owner
     And I input email and password Cafe Owner
     And I click login button Cafe Owner
-    And I access artist list
+
+    Scenario: User access detail artist successfully
+      When I access artist list
+      Then I select artist from list
 
 
-    Scenario: User hire artist successfully
-      When I select artist from list
+
+
+
 #      And I click on Hire button
 #      And I select date
 #      And I click on Save button
