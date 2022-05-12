@@ -3,5 +3,7 @@ Potentivio/CucumberTestSuite.class
 Potentivio/stepdefinitions/LoginStepDef.class
 tasks/NavigateTo.class
 Potentivio/pageobjects/PotentivioLoginPageObjects.class
+Potentivio/pageobjects/HireArtistPageObjects.class
 tasks/InputText.class
+Potentivio/stepdefinitions/HireArtistStepDef.class
 Potentivio/stepdefinitions/ParameterDefinitions.class

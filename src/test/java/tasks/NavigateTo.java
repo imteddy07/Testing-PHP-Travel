@@ -1,5 +1,6 @@
 package tasks;
 
+import Potentivio.pageobjects.HireArtistPageObjects;
 import Potentivio.pageobjects.PotentivioLoginPageObjects;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
@@ -12,6 +13,9 @@ public class NavigateTo {
         switch (urlType) {
             case "Potentivio Page":
                 url = PotentivioLoginPageObjects.class;
+                break;
+            case "Cafe Owner Home Page":
+                url = HireArtistPageObjects.class;
                 break;
             default:
                 throw new Exception("There is no url type: " + urlType);

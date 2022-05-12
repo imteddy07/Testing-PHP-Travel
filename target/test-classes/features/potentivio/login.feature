@@ -1,5 +1,5 @@
 @login
-  Feature: Potentivio - Login as cafe owner
+  Feature: Potentivio - Login
 
     Scenario: User Login as Cafe Owner Successfully
       Given I open Potentivio page
