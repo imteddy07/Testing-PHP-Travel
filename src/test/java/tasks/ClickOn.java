@@ -1,5 +1,6 @@
 package tasks;
 
+import Potentivio.pageobjects.HireArtistPageObjects;
 import Potentivio.pageobjects.PotentivioLoginPageObjects;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
@@ -27,5 +28,10 @@ public class ClickOn {
         WaitUntil.the(button, isVisible()).forNoMoreThan(25).seconds();
         return Task.where("{0} click " + buttonType + "button",
                 Click.on(button));
+    }
+    public static Performable artistList() {
+        return Task.where("{0} click artist",
+                Click.on(HireArtistPageObjects.ARTIST_LIST)
+        );
     }
 }

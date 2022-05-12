@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Potentivio - Hire Artist
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 28.294 s <<< FAILURE! - in Potentivio - Hire Artist
+Potentivio - Hire Artist.User hire artist successfully  Time elapsed: 28.294 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException: 
+Expected condition failed: waiting for By.xpath: //a[@href='/owner/detail-owner/116'] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'zatihulwanis-MacBook-Air.local', ip: 'fe80:0:0:0:4e0:45df:34e1:1763%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_321'
+Driver info: driver.version: unknown
+Caused by: org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for By.xpath: //a[@href='/owner/detail-owner/116'] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'zatihulwanis-MacBook-Air.local', ip: 'fe80:0:0:0:4e0:45df:34e1:1763%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_321'
+Driver info: driver.version: unknown
+

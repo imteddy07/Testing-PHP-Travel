@@ -46,9 +46,15 @@ public class LoginStepDef {
     }
 
     @Then("{actor} can login successfully as Cafe Owner")
-    public void iCanLoginSuccessfullyAsCafeOwner(Actor actor) {
-        actor.attemptsTo(
-                Ensure.thatTheCurrentPage().currentUrl().contains("/owner")
-        );
+    public void iCanLoginSuccessfullyAsCafeOwner(Actor actor) throws Exception {
+        actor.wasAbleTo(NavigateTo.theURL("Cafe Owner Home Page"));
     }
+
+//    @Then("{actor} can login successfully as Cafe Owner")
+//    public void iCanLoginSuccessfullyAsCafeOwner(Actor actor) {
+//        actor.attemptsTo(
+//                Ensure.thatTheCurrentPage().currentUrl().contains("/owner")
+//        );
+//    }
+
 }

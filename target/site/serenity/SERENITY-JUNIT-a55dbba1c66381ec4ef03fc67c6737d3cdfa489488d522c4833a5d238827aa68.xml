@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Potentivio - Hire Artist" skipped="0" tests="1" time="28.01" timestamp="2022-05-12 08:27:36"><testcase name="User hire artist successfully"><failure message="Expected condition failed: waiting for By.xpath: //a[@href='/owner/detail-owner/116'] to be present (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '4.1.2', revision: '9a5a329c5a'&#10;System info: host: 'zatihulwanis-MacBook-Air.local', ip: 'fe80:0:0:0:4e0:45df:34e1:1763%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_321'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBePresentException">Expected condition failed: waiting for By.xpath: //a[@href='/owner/detail-owner/116'] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'zatihulwanis-MacBook-Air.local', ip: 'fe80:0:0:0:4e0:45df:34e1:1763%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_321'
+Driver info: driver.version: unknown</failure><system-err>Expected condition failed: waiting for By.xpath: //a[@href='/owner/detail-owner/116'] to be present (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'zatihulwanis-MacBook-Air.local', ip: 'fe80:0:0:0:4e0:45df:34e1:1763%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_321'
+Driver info: driver.version: unknown
+Potentivio.stepdefinitions.HireArtistStepDef.iSelectArtistFromList(HireArtistStepDef.java:20)
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+io.cucumber.java.Invoker.invoke(Invoker.java:24)
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)
+io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+io.cucumber.core.runner.TestCase.run(TestCase.java:95)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:58)
+</system-err></testcase></testsuite>
