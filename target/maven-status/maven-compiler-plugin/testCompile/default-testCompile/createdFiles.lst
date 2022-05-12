@@ -1,9 +1,10 @@
-tasks/ClickOn.class
 Potentivio/CucumberTestSuite.class
 Potentivio/stepdefinitions/LoginStepDef.class
-tasks/NavigateTo.class
 Potentivio/pageobjects/PotentivioLoginPageObjects.class
 Potentivio/pageobjects/HireArtistPageObjects.class
-tasks/InputText.class
+tasks/VerifyDisplayed.class
 Potentivio/stepdefinitions/HireArtistStepDef.class
+tasks/ClickOn.class
+tasks/NavigateTo.class
+tasks/InputText.class
 Potentivio/stepdefinitions/ParameterDefinitions.class
