@@ -17,6 +17,9 @@ public class NavigateTo {
             case "Cafe Owner Home Page":
                 url = HireArtistPageObjects.class;
                 break;
+            case "Detail Artist Page":
+                url = DetailArtistPageObjects.class;
+                break;
             default:
                 throw new Exception("There is no url type: " + urlType);
         }

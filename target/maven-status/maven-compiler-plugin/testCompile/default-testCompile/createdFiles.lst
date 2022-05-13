@@ -6,5 +6,6 @@ tasks/VerifyDisplayed.class
 Potentivio/stepdefinitions/HireArtistStepDef.class
 tasks/ClickOn.class
 tasks/NavigateTo.class
+Potentivio/pageobjects/DetailArtistPageObjects.class
 tasks/InputText.class
 Potentivio/stepdefinitions/ParameterDefinitions.class

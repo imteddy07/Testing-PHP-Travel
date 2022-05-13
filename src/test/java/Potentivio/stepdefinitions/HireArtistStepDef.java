@@ -13,23 +13,20 @@ public class HireArtistStepDef {
 
     @When("{actor} access artist list")
     public void accessArtist(Actor actor) throws Exception {
-        actor.wasAbleTo(NavigateTo.theURL("Cafe Owner Home Page"),
+        actor.attemptsTo(
                 VerifyDisplayed.element("Artist List")
         );
+        actor.wasAbleTo(NavigateTo.theURL("Cafe Owner Home Page")
+        );
+
     }
 
     @Then("{actor} select artist from list")
     public void iSelectArtistFromList(Actor actor) throws Exception {
         actor.attemptsTo(
+                VerifyDisplayed.element("Artist List"),
                 ClickOn.artistList()
         );
     }
-
-//    @Then("{actor} can see detail artist")
-//    public void iCanSeeDetailArtist(Actor actor) {
-//            actor.attemptsTo(
-//                    Ensure.thatTheCurrentPage().currentUrl().contains("/owner/detail-owner/53")
-//            );
-
     }
 
