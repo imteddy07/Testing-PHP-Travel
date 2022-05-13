@@ -2,6 +2,7 @@ package tasks;
 
 import Potentivio.pageobjects.HireArtistPageObjects;
 import Potentivio.pageobjects.PotentivioLoginPageObjects;
+import Potentivio.pageobjects.PotentivioRegisterPageObjects;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
@@ -20,6 +21,9 @@ public class ClickOn {
                 break;
             case "Login Cafe Owner":
                 button = PotentivioLoginPageObjects.LOGIN_CAFE_BUTTON;
+                break;
+            case "Register Cafe Owner":
+                button = PotentivioRegisterPageObjects.REGISTER_CAFE_BUTTON;
                 break;
             default:
                 throw new Exception("There is no button type: " + buttonType);
