@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 Serenity report generated 13-05-2022 17:58:35
+=======
+Serenity report generated 13-05-2022 16:14:46
+>>>>>>> 87180434acda84f1909bf9d5a7d4bc9f49ee97de
 
-Test Cases:         1 
+Test Cases:         2 
 Passed:             1
-Failed:             0
+Failed:             1
 Failed with errors: 0
 Compromised:        0
 Pending:            0

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Potentivio/CucumberTestSuite.class
 Potentivio/stepdefinitions/LoginStepDef.class
 Potentivio/pageobjects/PotentivioLoginPageObjects.class
@@ -9,3 +10,18 @@ tasks/NavigateTo.class
 Potentivio/pageobjects/DetailArtistPageObjects.class
 tasks/InputText.class
 Potentivio/stepdefinitions/ParameterDefinitions.class
+=======
+Potentivio\stepdefinitions\ParameterDefinitions.class
+tasks\ClickOn.class
+Potentivio\pageobjects\HireArtistPageObjects.class
+tasks\InputText.class
+Potentivio\pageobjects\PotentivioRegisterPageObjects.class
+Potentivio\stepdefinitions\HireArtistStepDef.class
+tasks\NavigateTo.class
+tasks\VerifyDisplayed.class
+Potentivio\stepdefinitions\RegisterStepDef.class
+Potentivio\pageobjects\PotentivioPIMPageObjects.class
+Potentivio\CucumberTestSuite.class
+Potentivio\pageobjects\PotentivioLoginPageObjects.class
+Potentivio\stepdefinitions\LoginStepDef.class
+>>>>>>> 87180434acda84f1909bf9d5a7d4bc9f49ee97de
