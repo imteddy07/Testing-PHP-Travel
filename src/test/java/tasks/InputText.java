@@ -1,6 +1,7 @@
 package tasks;
 
 import Potentivio.pageobjects.PotentivioLoginPageObjects;
+import Potentivio.pageobjects.PotentivioRegisterPageObjects;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Enter;
@@ -17,6 +18,21 @@ public class InputText {
                 break;
             case "Cafe Owner Password":
                 field = PotentivioLoginPageObjects.PASSWORD_CAFE_FIELD;
+                break;
+            case "Cafe Name":
+                field = PotentivioRegisterPageObjects.CAFE_NAME_FIELD;
+                break;
+            case "Owner Cafe":
+                field = PotentivioRegisterPageObjects.OWNER_CAFE_FIELD;
+                break;
+            case "Email Cafe":
+                field = PotentivioRegisterPageObjects.EMAIL_CAFE_FIELD;
+                break;
+            case "Password Cafe":
+                field = PotentivioRegisterPageObjects.PASSWORD_CAFE_FIELD;
+                break;
+            case "Address Cafe":
+                field = PotentivioRegisterPageObjects.ADDRESS_CAFE_FIELD;
                 break;
             default:
                 throw new Exception("There is no field type: " + fieldType);
