@@ -1,6 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: Potentivio - Hire Artist
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.261 s - in Potentivio - Hire Artist
+=======
 Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.594 s <<< FAILURE! - in Potentivio - Hire Artist
 Potentivio - Hire Artist.User access detail artist successfully  Time elapsed: 12.594 s  <<< FAILURE!
 java.lang.AssertionError: 
@@ -8,3 +11,4 @@ java.lang.AssertionError:
 Expecting artist list that is displayed
 But got: web element is not displayed
 
+>>>>>>> 87180434acda84f1909bf9d5a7d4bc9f49ee97de

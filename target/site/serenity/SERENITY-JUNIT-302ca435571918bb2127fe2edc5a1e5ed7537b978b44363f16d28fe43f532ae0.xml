@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Potentivio - Hire Artist" skipped="0" tests="1" time="23.25" timestamp="2022-05-13 05:57:54"><testcase name="User access detail artist successfully"/></testsuite>
+=======
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Potentivio - Hire Artist" skipped="0" tests="1" time="12.45" timestamp="2022-05-13 04:14:28"><testcase name="User access detail artist successfully"><failure message="&#10;Expecting artist list that is displayed&#10;But got: web element is not displayed" type="java.lang.AssertionError">
 Expecting artist list that is displayed
 But got: web element is not displayed</failure><system-err>
@@ -24,3 +27,4 @@ io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)&#13;
 io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)&#13;
 io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:58)&#13;
 </system-err></testcase></testsuite>
+>>>>>>> 87180434acda84f1909bf9d5a7d4bc9f49ee97de

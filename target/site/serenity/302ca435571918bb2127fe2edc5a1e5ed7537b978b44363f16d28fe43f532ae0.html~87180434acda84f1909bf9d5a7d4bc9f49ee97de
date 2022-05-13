@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>User hire artist successfully</title>
+    <title>User access detail artist successfully</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
@@ -124,7 +124,7 @@
             > <a href="1897644d307dc3e6e0a4d829141a398298e2373a9d9f7ec47f72f14ea689a97b.html">Potentivio</a>
  <!-- inflection.of(breadcrumb.displayName).asATitle()-->
             > <a href="177524f4e43b1aba74b6551e94ee16b877bf825c7108ad597d4a918992e611ca.html">Potentivio - Hire Artist</a>
-        > User hire artist successfully
+        > User access detail artist successfully
         </span>
         </div>
         <div class="rightbg"></div>
@@ -148,7 +148,7 @@
             <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="bi bi-chat-text"></i> Stories</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 13-05-2022 00:26</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 13-05-2022 16:14</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -190,10 +190,10 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">
-                                    User hire artist successfully
+                                <span class="failing-color">
+                                    User access detail artist successfully
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -265,6 +265,7 @@
                     Steps
                 </th>
 
+                    <th width="150" class="greentext">Screenshots</th>
                 <th width="130" class="greentext">Outcome</th>
                 <th width="100" class="greentext"><i title="Duration" class="bi bi-stopwatch"></i></th>
             </tr>
@@ -296,8 +297,11 @@
                         </div>
                     </td>
 
+                        <td width="160" class="SUCCESS-text">
+
+                        </td>
                     <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">17s 509ms</span></td>
+                    <td width="100"><span class="top-level-step">6s 835ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -326,8 +330,11 @@
                         </div>
                     </td>
 
+                        <td width="160" class="SUCCESS-text">
+
+                        </td>
                     <td width="130"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">16s 429ms</span></td>
+                    <td width="100"><span class="nested-step">6s 411ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -351,8 +358,11 @@
                         </div>
                     </td>
 
+                        <td width="160" class="SUCCESS-text">
+
+                        </td>
                     <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">16s 331ms</span></td>
+                    <td width="100"><span class="nested-group-step">6s 379ms</span></td>
                 </tr>
 
                             </table>
@@ -386,8 +396,11 @@
                         </div>
                     </td>
 
+                        <td width="160" class="SUCCESS-text">
+
+                        </td>
                     <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">997ms</span></td>
+                    <td width="100"><span class="top-level-step">246ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -416,8 +429,11 @@
                         </div>
                     </td>
 
+                        <td width="160" class="SUCCESS-text">
+
+                        </td>
                     <td width="130"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">650ms</span></td>
+                    <td width="100"><span class="nested-step">198ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -441,8 +457,11 @@
                         </div>
                     </td>
 
+                        <td width="160" class="SUCCESS-text">
+
+                        </td>
                     <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">620ms</span></td>
+                    <td width="100"><span class="nested-group-step">190ms</span></td>
                 </tr>
 
                             </table>
@@ -476,8 +495,11 @@
                         </div>
                     </td>
 
+                        <td width="160" class="SUCCESS-text">
+
+                        </td>
                     <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">1s 042ms</span></td>
+                    <td width="100"><span class="top-level-step">507ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -506,8 +528,11 @@
                         </div>
                     </td>
 
+                        <td width="160" class="SUCCESS-text">
+
+                        </td>
                     <td width="130"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">424ms</span></td>
+                    <td width="100"><span class="nested-step">208ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -531,8 +556,11 @@
                         </div>
                     </td>
 
+                        <td width="160" class="SUCCESS-text">
+
+                        </td>
                     <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">409ms</span></td>
+                    <td width="100"><span class="nested-group-step">197ms</span></td>
                 </tr>
 
                             </table>
@@ -562,8 +590,11 @@
                         </div>
                     </td>
 
+                        <td width="160" class="SUCCESS-text">
+
+                        </td>
                     <td width="130"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">355ms</span></td>
+                    <td width="100"><span class="nested-step">217ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -587,8 +618,11 @@
                         </div>
                     </td>
 
+                        <td width="160" class="SUCCESS-text">
+
+                        </td>
                     <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">341ms</span></td>
+                    <td width="100"><span class="nested-group-step">212ms</span></td>
                 </tr>
 
                             </table>
@@ -622,8 +656,11 @@
                         </div>
                     </td>
 
+                        <td width="160" class="SUCCESS-text">
+
+                        </td>
                     <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">274ms</span></td>
+                    <td width="100"><span class="top-level-step">155ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -652,8 +689,11 @@
                         </div>
                     </td>
 
+                        <td width="160" class="SUCCESS-text">
+
+                        </td>
                     <td width="130"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">245ms</span></td>
+                    <td width="100"><span class="nested-step">140ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -677,8 +717,11 @@
                         </div>
                     </td>
 
+                        <td width="160" class="SUCCESS-text">
+
+                        </td>
                     <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">222ms</span></td>
+                    <td width="100"><span class="nested-group-step">135ms</span></td>
                 </tr>
 
                             </table>
@@ -688,13 +731,13 @@
                             </table>
                         </td>
                     </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
 
                     <td width="50" class="step-icon">
                         <a name="4"></a>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection4')"
                                style="display:block">
-                                <i class="bi bi-plus-square imgstepSection4 success-icon"
+                                <i class="bi bi-plus-square imgstepSection4 failure-icon"
                                    style="margin-left: 20px; float:left; padding-right:5px"></i>
                             </a>
                     </td>
@@ -704,7 +747,7 @@
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection4')"
                                style="display:block;">
                                 <span class="top-level-step">
-                                                And I access artist list
+                                                When I access artist list
                                         </span>
                             </a>
                             <span class="evidence">
@@ -712,8 +755,17 @@
                         </div>
                     </td>
 
-                    <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">1s 692ms</span></td>
+                        <td width="160" class="FAILURE-text">
+
+                                <a href="302ca435571918bb2127fe2edc5a1e5ed7537b978b44363f16d28fe43f532ae0_screenshots.html#screenshots?screenshot=4">
+                                    <img src="0183e8bcc2f9fbcf22a64c6947a4dd9e4650d30ba06f0fa3769b5d0f77636e0f.png"
+                                         href="0183e8bcc2f9fbcf22a64c6947a4dd9e4650d30ba06f0fa3769b5d0f77636e0f.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="130"><span class="top-level-step">FAILURE</span></td>
+                    <td width="100"><span class="top-level-step">4s 414ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -742,8 +794,11 @@
                         </div>
                     </td>
 
+                        <td width="160" class="SUCCESS-text">
+
+                        </td>
                     <td width="130"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">1s 362ms</span></td>
+                    <td width="100"><span class="nested-step">1s 442ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -767,20 +822,23 @@
                         </div>
                     </td>
 
+                        <td width="160" class="SUCCESS-text">
+
+                        </td>
                     <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">1s 078ms</span></td>
+                    <td width="100"><span class="nested-group-step">1s 425ms</span></td>
                 </tr>
 
                             </table>
                         </td>
                     </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
 
                     <td width="70" class="step-icon">
                         <a name="4-1"></a>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection4-1')"
                                style="display:block">
-                                <i class="bi bi-plus-square imgstepSection4-1 success-icon"
+                                <i class="bi bi-plus-square imgstepSection4-1 failure-icon"
                                    style="margin-left: 40px; float:left; padding-right:5px"></i>
                             </a>
                     </td>
@@ -798,18 +856,27 @@
                         </div>
                     </td>
 
-                    <td width="130"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">269ms</span></td>
+                        <td width="160" class="FAILURE-text">
+
+                                <a href="302ca435571918bb2127fe2edc5a1e5ed7537b978b44363f16d28fe43f532ae0_screenshots.html#screenshots?screenshot=3">
+                                    <img src="0183e8bcc2f9fbcf22a64c6947a4dd9e4650d30ba06f0fa3769b5d0f77636e0f.png"
+                                         href="0183e8bcc2f9fbcf22a64c6947a4dd9e4650d30ba06f0fa3769b5d0f77636e0f.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-step">2s 942ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
                             <table id="stepSection4-1" class="step-table-nested" style="display:none;">
-                <tr class="test-SUCCESS">
+                <tr class="test-FAILURE">
 
                     <td width="90" class="step-icon">
                         <a name="4-1-0"></a>
                             <span style="margin-left: 60px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
+                                  class="nested-group-icon"><a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon ' title='FAILURE'></i></a>
                                 </span>
                     </td>
 
@@ -823,111 +890,93 @@
                         </div>
                     </td>
 
-                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">106ms</span></td>
+                        <td width="160" class="FAILURE-text">
+
+                                <a href="302ca435571918bb2127fe2edc5a1e5ed7537b978b44363f16d28fe43f532ae0_screenshots.html#screenshots?screenshot=3">
+                                    <img src="0183e8bcc2f9fbcf22a64c6947a4dd9e4650d30ba06f0fa3769b5d0f77636e0f.png"
+                                         href="0183e8bcc2f9fbcf22a64c6947a4dd9e4650d30ba06f0fa3769b5d0f77636e0f.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="130"><span class="nested-group-step">FAILURE</span></td>
+                    <td width="100"><span class="nested-group-step">2s 880ms</span></td>
                 </tr>
+                    <tr class="test-FAILURE">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="4" class="error-message-cell">
 
-                            </table>
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">java.lang.AssertionError: <br>Expecting artist list that is displayed<br>But got: web element is not displayed</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-19"
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="bi bi-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-19">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>Potentivio.stepdefinitions.HireArtistStepDef.accessArtist(HireArtistStepDef.java:16)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:57)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:95)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:75)<br />io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:151)<br />io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)<br />io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:151)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)<br />io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:58)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
                         </td>
                     </tr>
 
                             </table>
                         </td>
                     </tr>
-                <tr class="test-SUCCESS">
+
+                            </table>
+                        </td>
+                    </tr>
+                <tr class="test-SKIPPED">
 
                     <td width="50" class="step-icon">
                         <a name="5"></a>
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection5')"
-                               style="display:block">
-                                <i class="bi bi-plus-square imgstepSection5 success-icon"
-                                   style="margin-left: 20px; float:left; padding-right:5px"></i>
-                            </a>
+                            <span style="margin-left: 20px;"
+                                  class="top-level-icon"><a href='##beforetable'><i class='bi bi-skip-forward skipped-icon ' title='SKIPPED'></i></a>
+                                </span>
                     </td>
 
                     <td class="step-description-column">
                         <div class="step-description">
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection5')"
-                               style="display:block;">
                                 <span class="top-level-step">
-                                                When I select artist from list
-                                        </span>
-                            </a>
-                            <span class="evidence">
-                                </span>
-                        </div>
-                    </td>
-
-                    <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">287ms</span></td>
-                </tr>
-                    <tr>
-                        <td colspan="5">
-                            <table id="stepSection5" class="step-table-nested" style="display:none;">
-                <tr class="test-SUCCESS">
-
-                    <td width="70" class="step-icon">
-                        <a name="5-0"></a>
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection5-0')"
-                               style="display:block">
-                                <i class="bi bi-plus-square imgstepSection5-0 success-icon"
-                                   style="margin-left: 40px; float:left; padding-right:5px"></i>
-                            </a>
-                    </td>
-
-                    <td class="step-description-column">
-                        <div class="step-description">
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection5-0')"
-                               style="display:block;">
-                                <span class="nested-step">
-                                                I click artist
-                                        </span>
-                            </a>
-                            <span class="evidence">
-                                </span>
-                        </div>
-                    </td>
-
-                    <td width="130"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">263ms</span></td>
-                </tr>
-                    <tr>
-                        <td colspan="5">
-                            <table id="stepSection5-0" class="step-table-nested" style="display:none;">
-                <tr class="test-SUCCESS">
-
-                    <td width="90" class="step-icon">
-                        <a name="5-0-0"></a>
-                            <span style="margin-left: 60px;"
-                                  class="nested-group-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a>
-                                </span>
-                    </td>
-
-                    <td class="step-description-column">
-                        <div class="step-description">
-                                <span class="nested-group-step">
-                                                I clicks on artist list
+                                                Then I select artist from list
                                         </span>
                             <span class="evidence">
                                 </span>
                         </div>
                     </td>
 
-                    <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">244ms</span></td>
-                </tr>
+                        <td width="160" class="SKIPPED-text">
 
-                            </table>
                         </td>
-                    </tr>
-
-                            </table>
-                        </td>
-                    </tr>
-            <tr class="test-SUCCESS">
-                    <td colspan="2"></td>
-                <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                <td width="100"><span class="top-level-step"><em>22.18s</em></span></td>
+                    <td width="130"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">020ms</span></td>
+                </tr>
+            <tr class="test-FAILURE">
+                    <td colspan="3"></td>
+                <td width="130"><span class="top-level-step"><em>FAILURE</em></span></td>
+                <td width="100"><span class="top-level-step"><em>12.45s</em></span></td>
             </tr>
 
         </table>
