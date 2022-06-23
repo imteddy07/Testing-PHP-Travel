@@ -1,8 +1,6 @@
 package tasks;
 
-import Potentivio.pageobjects.HireArtistPageObjects;
-import Potentivio.pageobjects.PotentivioLoginPageObjects;
-import Potentivio.pageobjects.PotentivioRegisterPageObjects;
+import PHPTravel.pageobjects.*;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Open;
@@ -12,14 +10,17 @@ public class NavigateTo {
         Class url = null;
 
         switch (urlType) {
-            case "Potentivio Page":
-                url = PotentivioLoginPageObjects.class;
+            case "Booking Flight":
+                url = BookingFlightPageObjects.class;
                 break;
-            case "Cafe Owner Home Page":
-                url = HireArtistPageObjects.class;
+            case "Booking Hotel":
+                url = BookingHotelPageObjects.class;
                 break;
-            case "Register Here":
-                url = PotentivioRegisterPageObjects.class;
+            case "PHP Travel Page":
+                url = PHPTravelPageObjects.class;
+                break;
+            case "PHP Travel Homepage":
+                url = PHPTravelPageObjects.class;
                 break;
             default:
                 throw new Exception("There is no url type: " + urlType);

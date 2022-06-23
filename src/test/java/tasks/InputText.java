@@ -1,7 +1,8 @@
 package tasks;
 
-import Potentivio.pageobjects.PotentivioLoginPageObjects;
-import Potentivio.pageobjects.PotentivioRegisterPageObjects;
+import PHPTravel.pageobjects.BookingFlightPageObjects;
+import PHPTravel.pageobjects.BookingHotelPageObjects;
+import PHPTravel.pageobjects.PHPTravelPageObjects;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Enter;
@@ -13,26 +14,20 @@ public class InputText {
         Target field = null;
 
         switch (fieldType) {
-            case "Cafe Owner Email":
-                field = PotentivioLoginPageObjects.EMAIL_CAFE_FIELD;
+            case "To Destination":
+                field = BookingFlightPageObjects.TO_DESTINATION;
                 break;
-            case "Cafe Owner Password":
-                field = PotentivioLoginPageObjects.PASSWORD_CAFE_FIELD;
+            case "Flying From":
+                field = BookingFlightPageObjects.FLYING_FROM;
                 break;
-            case "Cafe Name":
-                field = PotentivioRegisterPageObjects.CAFE_NAME_FIELD;
+            case "City Field":
+                field = BookingHotelPageObjects.CITY_FIELD;
                 break;
-            case "Owner Cafe":
-                field = PotentivioRegisterPageObjects.OWNER_CAFE_FIELD;
+            case "PHP Email":
+                field = PHPTravelPageObjects.PHP_EMAIL_FIELD;
                 break;
-            case "Email Cafe":
-                field = PotentivioRegisterPageObjects.EMAIL_CAFE_FIELD;
-                break;
-            case "Password Cafe":
-                field = PotentivioRegisterPageObjects.PASSWORD_CAFE_FIELD;
-                break;
-            case "Address Cafe":
-                field = PotentivioRegisterPageObjects.ADDRESS_CAFE_FIELD;
+            case "PHP Password":
+                field = PHPTravelPageObjects.PHP_PASSWORD_FIELD;
                 break;
             default:
                 throw new Exception("There is no field type: " + fieldType);

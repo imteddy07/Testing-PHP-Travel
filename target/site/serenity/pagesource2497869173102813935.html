@@ -1,0 +1,530 @@
+<html lang='en'><head><link href='prism/prism.css' rel='stylesheet' /></head><body><script src='prism/prism.js'></script><body><div><pre><code class='language-html'>&lt;html lang="en"&gt;<br/>
+ &lt;head&gt; <br/>
+  &lt;meta charset="UTF-8"&gt; <br/>
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; <br/>
+  &lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt; <br/>
+  &lt;meta http-equiv="refresh" content="6000; https://www.phptravels.net/timeout"&gt; &lt;!-- MEDA FOR SEARCH ENGINES AND SOCIAL PLATFORMS --&gt; <br/>
+  &lt;meta property="og:title" content="Login"&gt; <br/>
+  &lt;meta property="og:site_name" content="PHPTRAVELS"&gt; <br/>
+  &lt;meta property="og:description" content=""&gt; <br/>
+  &lt;meta property="og:image" content=""&gt; <br/>
+  &lt;meta property="og:url" content="https://www.phptravels.net/login"&gt; <br/>
+  &lt;meta property="og:publisher" content="PHPTRAVELS"&gt; &lt;!-- TWITTER CARD --&gt; <br/>
+  &lt;meta name="twitter:card" content="summary_large_image"&gt; <br/>
+  &lt;meta name="twitter:site" content="@Login"&gt; <br/>
+  &lt;meta name="twitter:title" content="Login"&gt; <br/>
+  &lt;meta name="twitter:description" content=""&gt; <br/>
+  &lt;meta name="twitter:image" content=""&gt; &lt;!-- GOOGLE JSON SCHEMA --&gt; <br/>
+  &lt;script type="application/ld+json"&gt;<br/>
+{<br/>
+"@context" : "http://schema.org",<br/>
+"@type" : "Corporation",<br/>
+"brand": "Login",<br/>
+"description": "",<br/>
+"name" : "Login",<br/>
+"foundingDate": "2014-05",<br/>
+"knowsAbout": "Online Travel Agency",<br/>
+"legalName": "Login",<br/>
+"logo" : "https://www.phptravels.net/api/uploads/global/logo.png",<br/>
+"numberOfEmployees": "15",<br/>
+"ownershipFundingInfo": "https://www.phptravels.net/contact",<br/>
+"url" : "https://www.phptravels.net/login",<br/>
+"slogan": "Online Tavel Booking Services",<br/>
+"tickerSymbol": [<br/>
+"NYSE:SHOP",<br/>
+"TSX:SHOP"<br/>
+]<br/>
+&lt;/script&gt; <br/>
+  &lt;title&gt;Login - PHPTRAVELS&lt;/title&gt; <br/>
+  &lt;base href="https://www.phptravels.net/"&gt; <br/>
+  &lt;link rel="stylesheet" href="https://www.phptravels.net/app/themes/default/assets/css/bootstrap.min.css"&gt; <br/>
+  &lt;link rel="stylesheet" href="https://www.phptravels.net/app/themes/default/assets/css/line-awesome.css"&gt; <br/>
+  &lt;link rel="stylesheet" href="https://www.phptravels.net/app/themes/default/assets/css/owl.carousel.min.css"&gt; <br/>
+  &lt;link rel="stylesheet" href="https://www.phptravels.net/app/themes/default/assets/css/owl.theme.default.min.css"&gt; <br/>
+  &lt;link rel="stylesheet" href="https://www.phptravels.net/app/themes/default/assets/css/jquery.fancybox.min.css"&gt; <br/>
+  &lt;link rel="stylesheet" href="https://www.phptravels.net/app/themes/default/assets/css/animate.min.css"&gt; <br/>
+  &lt;link rel="stylesheet" href="https://www.phptravels.net/app/themes/default/assets/css/animated-headline.css"&gt; <br/>
+  &lt;link rel="stylesheet" href="https://www.phptravels.net/app/themes/default/assets/css/jquery-ui.css"&gt; <br/>
+  &lt;link rel="stylesheet" href="https://www.phptravels.net/app/themes/default/assets/css/flag-icon.min.css"&gt; <br/>
+  &lt;link rel="stylesheet" href="https://www.phptravels.net/app/themes/default/assets/css/style.css"&gt; <br/>
+  &lt;link rel="stylesheet" href="https://www.phptravels.net/app/themes/default/style.css"&gt; <br/>
+  &lt;link rel="stylesheet" href="https://www.phptravels.net/app/themes/default/assets/css/mobile.css"&gt; <br/>
+  &lt;link rel="stylesheet" href="https://www.phptravels.net/app/themes/default/assets/css/childstyle.css"&gt; <br/>
+  &lt;script&gt; var baseurl = "https://www.phptravels.net/"; &lt;/script&gt; <br/>
+  &lt;link rel="shortcut icon" href="https://www.phptravels.net/api/uploads/global/favicon.png"&gt; <br/>
+  &lt;script src="https://www.phptravels.net/app/themes/default/assets/js/jquery/jquery.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet"&gt; <br/>
+  &lt;script&gt;var root = 'https://www.phptravels.net/'&lt;/script&gt; <br/>
+  &lt;script async src="/cdn-cgi/challenge-platform/h/g/scripts/invisible.js?ts=1655899200"&gt;&lt;/script&gt;<br/>
+  &lt;style type="text/css"&gt;&lt;/style&gt;<br/>
+ &lt;/head&gt; <br/>
+ &lt;body id="fadein"&gt; &lt;!-- loading effect --&gt; &lt;!--&lt;div class="preloader centerrotate" id="preloader"&gt;<br/>
+ &lt;div class="rotatingDiv"&gt;&lt;/div&gt;<br/>
+&lt;/div&gt;--&gt; &lt;!-- ================================<br/>
+         START HEADER AREA<br/>
+================================= --&gt; <br/>
+  &lt;header class="header-area"&gt; <br/>
+   &lt;div class="header-top-bar padding-right-100px padding-left-100px"&gt; <br/>
+    &lt;div class="container"&gt; <br/>
+     &lt;div class="row align-items-center"&gt; <br/>
+      &lt;div class="col-lg-6"&gt; <br/>
+       &lt;div class="header-top-content"&gt; <br/>
+        &lt;div class="header-left"&gt; <br/>
+         &lt;ul class="list-items"&gt; <br/>
+          &lt;li&gt;&lt;a href="tel:+1-234-56789" class=" waves-effect"&gt; &lt;i class="la la-phone mr-1"&gt;&lt;/i&gt; +1-234-56789&lt;/a&gt;&lt;/li&gt; <br/>
+          &lt;li&gt;&lt;a href="mailto:info@travelagency.com" class=" waves-effect"&gt;&lt;i class="la la-envelope mr-1"&gt;&lt;/i&gt;info@travelagency.com&lt;/a&gt;&lt;/li&gt; <br/>
+         &lt;/ul&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+      &lt;/div&gt; <br/>
+      &lt;div class="col-lg-6"&gt; <br/>
+       &lt;div class="header-top-content"&gt; <br/>
+        &lt;div class="header-right d-flex align-items-center justify-content-end"&gt; <br/>
+         &lt;div class="header-right-action pt-1 pe-2 multi_language"&gt; <br/>
+          &lt;div class="dropdown"&gt; &lt;button class="btn btn-default dropdown-toggle waves-effect" type="button" id="languages" data-bs-toggle="dropdown" aria-expanded="false"&gt; &lt;span class="flag-icon flag-icon-us mr-1"&gt;&lt;/span&gt; English &lt;/button&gt; <br/>
+           &lt;ul class="dropdown-menu" aria-labelledby="languages"&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/lang-tr"&gt;&lt;span class="flag-icon flag-icon-tr mr-1"&gt;&lt;/span&gt; Turkish&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/lang-ru"&gt;&lt;span class="flag-icon flag-icon-ru mr-1"&gt;&lt;/span&gt; Russian&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/lang-ph"&gt;&lt;span class="flag-icon flag-icon-ph mr-1"&gt;&lt;/span&gt; philippine&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/lang-kr"&gt;&lt;span class="flag-icon flag-icon-kr mr-1"&gt;&lt;/span&gt; Korean&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/lang-kh"&gt;&lt;span class="flag-icon flag-icon-kh mr-1"&gt;&lt;/span&gt; Khmer&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/lang-id"&gt;&lt;span class="flag-icon flag-icon-id mr-1"&gt;&lt;/span&gt; indonesia&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/lang-fr"&gt;&lt;span class="flag-icon flag-icon-fr mr-1"&gt;&lt;/span&gt; French&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/lang-es"&gt;&lt;span class="flag-icon flag-icon-es mr-1"&gt;&lt;/span&gt; Spanish&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/lang-en"&gt;&lt;span class="flag-icon flag-icon-us mr-1"&gt;&lt;/span&gt; English&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/lang-de"&gt;&lt;span class="flag-icon flag-icon-de mr-1"&gt;&lt;/span&gt; German&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/lang-cn"&gt;&lt;span class="flag-icon flag-icon-cn mr-1"&gt;&lt;/span&gt; Chinese&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/lang-ar"&gt;&lt;span class="flag-icon flag-icon-sa mr-1"&gt;&lt;/span&gt; Arabic&lt;/a&gt;&lt;/li&gt; <br/>
+           &lt;/ul&gt; <br/>
+          &lt;/div&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="header-right-action  pt-1 pe-2 multi_currency"&gt; <br/>
+          &lt;div class="dropdown"&gt; &lt;button class="btn btn-default dropdown-toggle waves-effect" type="button" id="currency" data-bs-toggle="dropdown" aria-expanded="false"&gt; USD &lt;/button&gt; <br/>
+           &lt;ul class="dropdown-menu" aria-labelledby="currency"&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/currency-USD"&gt; USD&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/currency-GBP"&gt; GBP&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/currency-SAR"&gt; SAR&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/currency-EUR"&gt; EUR&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/currency-PKR"&gt; PKR&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/currency-JPY"&gt; JPY&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/currency-INR"&gt; INR&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/currency-CNY"&gt; CNY&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/currency-TRY"&gt; TRY&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/currency-RUB"&gt; RUB&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/currency-IRR"&gt; IRR&lt;/a&gt;&lt;/li&gt; <br/>
+           &lt;/ul&gt; <br/>
+          &lt;/div&gt; <br/>
+         &lt;/div&gt; &lt;!-- suppliers registration and login --&gt; <br/>
+         &lt;div class="header-right-action pt-1 pe-2 suppliers"&gt; <br/>
+          &lt;div class="dropdown"&gt; &lt;button class="btn btn-default dropdown-toggle waves-effect" type="button" id="supplier" data-bs-toggle="dropdown" aria-expanded="false"&gt; Supplier &lt;/button&gt; <br/>
+           &lt;ul class="dropdown-menu" aria-labelledby="supplier"&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/signup-supplier"&gt;Signup&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/api/supplier" target="_blank"&gt;Login&lt;/a&gt;&lt;/li&gt; <br/>
+           &lt;/ul&gt; <br/>
+          &lt;/div&gt; <br/>
+         &lt;/div&gt; &lt;!-- agents registration and login --&gt; <br/>
+         &lt;div class="header-right-action pt-1 pe-2 b2b_agents"&gt; <br/>
+          &lt;div class="dropdown"&gt; &lt;button class="btn btn-default dropdown-toggle waves-effect" type="button" id="agents" data-bs-toggle="dropdown" aria-expanded="false"&gt; Agents &lt;/button&gt; <br/>
+           &lt;ul class="dropdown-menu" aria-labelledby="agents"&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/signup-agent"&gt;Signup&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;li&gt;&lt;a class="dropdown-item waves-effect" href="https://www.phptravels.net/login" target="_blank"&gt;Login&lt;/a&gt;&lt;/li&gt; <br/>
+           &lt;/ul&gt; <br/>
+          &lt;/div&gt; <br/>
+         &lt;/div&gt; &lt;!-- customers registration and login --&gt; &lt;a href="https://www.phptravels.net/signup" class="theme-btn theme-btn-small waves-effect"&gt;Signup&lt;/a&gt; &lt;a href="https://www.phptravels.net/login" class="theme-btn theme-btn-small theme-btn-transparent ml-1 waves-effect"&gt;Login&lt;/a&gt; <br/>
+        &lt;/div&gt; &lt;!-- end nav-btn --&gt; <br/>
+       &lt;/div&gt; <br/>
+      &lt;/div&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; <br/>
+   &lt;/div&gt; <br/>
+   &lt;div class="header-menu-wrapper padding-right-100px padding-left-100px"&gt; <br/>
+    &lt;div class="container"&gt; <br/>
+     &lt;div class="row"&gt; <br/>
+      &lt;div class="col-lg-12"&gt; <br/>
+       &lt;div class="menu-wrapper"&gt; <br/>
+        &lt;script&gt;<br/>
+                        function takeup() {<br/>
+                            window.scrollTo({top: 0, behavior: 'smooth'});<br/>
+                        }<br/>
+                        &lt;/script&gt; &lt;a href="javascript:void(0)" onclick="takeup();" class="down-button waves-effect"&gt;&lt;i class="la la-angle-down"&gt;&lt;/i&gt;&lt;/a&gt; <br/>
+        &lt;div class="logo"&gt; &lt;a href="https://www.phptravels.net/" style="border-radius:5px" class=" waves-effect"&gt; &lt;img style="max-height:40px;border-radius:5px;background:transparent;padding:4px;" src="https://www.phptravels.net/api/uploads/global/logo.png" alt="logo"&gt; &lt;/a&gt; <br/>
+         &lt;div class="menu-toggler"&gt; &lt;i class="la la-bars"&gt;&lt;/i&gt; &lt;i class="la la-times"&gt;&lt;/i&gt; <br/>
+         &lt;/div&gt; <br/>
+        &lt;/div&gt; <br/>
+        &lt;div class="main-menu-content"&gt; <br/>
+         &lt;nav&gt; <br/>
+          &lt;ul&gt; <br/>
+           &lt;li&gt;&lt;a href="https://www.phptravels.net/" title="home" class=" waves-effect"&gt;Home&lt;/a&gt;&lt;/li&gt; <br/>
+           &lt;li&gt;&lt;a href="https://www.phptravels.net/hotels" title="home" class=" waves-effect"&gt;Hotels&lt;/a&gt;&lt;/li&gt; <br/>
+           &lt;li&gt;&lt;a href="https://www.phptravels.net/flights" title="home" class=" waves-effect"&gt;flights&lt;/a&gt;&lt;/li&gt; <br/>
+           &lt;li&gt;&lt;a href="https://www.phptravels.net/tours" title="home" class=" waves-effect"&gt;Tours&lt;/a&gt;&lt;/li&gt; <br/>
+           &lt;li&gt;&lt;a href="https://www.phptravels.net/visa" title="home" class=" waves-effect"&gt;visa&lt;/a&gt;&lt;/li&gt; <br/>
+           &lt;li&gt;&lt;a href="https://www.phptravels.net/blog" title="blog" class=" waves-effect"&gt;Blog&lt;/a&gt;&lt;/li&gt; <br/>
+           &lt;li&gt;&lt;a href="https://www.phptravels.net/offers" title="offers" class=" waves-effect"&gt;Offers&lt;/a&gt;&lt;/li&gt; &lt;!-- header manue --&gt; <br/>
+           &lt;li class="footm"&gt; &lt;a href="company" class=" waves-effect"&gt;Company &lt;i class="la la-angle-down"&gt;&lt;/i&gt;&lt;button class="drop-menu-toggler" type="button"&gt;&lt;i class="la la-angle-down"&gt;&lt;/i&gt;&lt;/button&gt;&lt;/a&gt; <br/>
+            &lt;ul class="dropdown-menu-item"&gt; <br/>
+             &lt;li&gt;&lt;a href="https://www.phptravels.net/about-us" class=" waves-effect"&gt;About Us&lt;/a&gt;&lt;/li&gt; <br/>
+             &lt;li&gt;&lt;a href="https://www.phptravels.net/terms-of-use" class=" waves-effect"&gt;Terms of Use&lt;/a&gt;&lt;/li&gt; <br/>
+             &lt;li&gt;&lt;a href="https://www.phptravels.net/faq" class=" waves-effect"&gt;FAQ&lt;/a&gt;&lt;/li&gt; <br/>
+             &lt;li&gt;&lt;a href="https://www.phptravels.net/how-to-book" class=" waves-effect"&gt;How to Book&lt;/a&gt;&lt;/li&gt; <br/>
+            &lt;/ul&gt; &lt;/li&gt; <br/>
+          &lt;/ul&gt; <br/>
+         &lt;/nav&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+      &lt;/div&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; <br/>
+   &lt;/div&gt; <br/>
+  &lt;/header&gt; &lt;!-- ================================<br/>
+         END HEADER AREA<br/>
+================================= --&gt;<br/>
+  &lt;div class="container"&gt; <br/>
+   &lt;div class="row mt-5 mb-5"&gt; <br/>
+    &lt;div class="col col align-self-start"&gt;&lt;/div&gt; <br/>
+    &lt;div class="modal-content col align-self-center"&gt; <br/>
+     &lt;div class="modal-header"&gt; <br/>
+      &lt;div&gt; <br/>
+       &lt;h5 class="modal-title title"&gt;Login&lt;/h5&gt; <br/>
+       &lt;p class="font-size-14"&gt;Please enter your account credentials below&lt;/p&gt; <br/>
+      &lt;/div&gt; <br/>
+     &lt;/div&gt; <br/>
+     &lt;div class="modal-body"&gt; <br/>
+      &lt;div class="contact-form-action"&gt; <br/>
+       &lt;div class="message"&gt; <br/>
+        &lt;div class="alert alert-danger d-none failed"&gt; &lt;i class="la la-info-circle"&gt;&lt;/i&gt; Wrong credentials. try again! <br/>
+        &lt;/div&gt; <br/>
+        &lt;div class="alert alert-success d-none signup"&gt; &lt;i class="la la-info-circle"&gt;&lt;/i&gt; Signup successfull please login. <br/>
+        &lt;/div&gt; <br/>
+       &lt;/div&gt; <br/>
+       &lt;div class="reset-fail alert alert-danger d-none"&gt; &lt;i class="la la-info-circle"&gt;&lt;/i&gt; No email exist use valid email <br/>
+       &lt;/div&gt; <br/>
+       &lt;div class="reset-success alert alert-success d-none"&gt; &lt;i class="la la-info-circle"&gt;&lt;/i&gt; Password reset check your mailbox <br/>
+       &lt;/div&gt; <br/>
+       &lt;form method="POST" action="https://www.phptravels.net/login"&gt; <br/>
+        &lt;div class="input-box"&gt; &lt;label class="label-text"&gt;Email&lt;/label&gt; <br/>
+         &lt;div class="form-group"&gt; &lt;span class="la la-user form-icon"&gt;&lt;/span&gt; <br/>
+          &lt;input class="form-control" type="email" placeholder="Email" required name="email"&gt; <br/>
+         &lt;/div&gt; <br/>
+        &lt;/div&gt; <br/>
+        &lt;div class="input-box"&gt; &lt;label class="label-text"&gt;Password&lt;/label&gt; <br/>
+         &lt;div class="form-group mb-2"&gt; &lt;span class="la la-lock form-icon"&gt;&lt;/span&gt; <br/>
+          &lt;input class="form-control" type="password" placeholder="Password" required name="password"&gt; <br/>
+         &lt;/div&gt; <br/>
+         &lt;div class="d-flex align-items-center justify-content-between"&gt; <br/>
+          &lt;div class="custom-checkbox mb-0"&gt; <br/>
+           &lt;input type="checkbox" id="rememberchb"&gt; &lt;label for="rememberchb"&gt;Remember Me&lt;/label&gt; <br/>
+          &lt;/div&gt; <br/>
+          &lt;div class="custom-checkbox mb-0"&gt; &lt;label for="rememberchb" data-bs-toggle="modal" data-bs-target="#reset"&gt;Reset Password&lt;/label&gt; <br/>
+          &lt;/div&gt; <br/>
+         &lt;/div&gt; <br/>
+        &lt;/div&gt; <br/>
+        &lt;div class="btn-box pt-3 pb-4"&gt; &lt;button type="submit" class="btn btn-default btn-lg btn-block effect ladda-button waves-effect" data-style="zoom-in"&gt;&lt;span class="ladda-label"&gt;Login&lt;/span&gt;&lt;span class="ladda-spinner"&gt;&lt;/span&gt;&lt;/button&gt; <br/>
+         &lt;div class="mt-3 row"&gt; <br/>
+          &lt;div class="col-md-12"&gt;<br/>
+           &lt;a class="btn btn-outline-primary btn-block form-group effect ladda-sm ladda-button waves-effect" data-style="zoom-in" href="https://www.phptravels.net/signup"&gt;&lt;span class="ladda-label"&gt;&lt;span&gt;&lt;/span&gt;Signup&lt;/span&gt;&lt;span class="ladda-spinner"&gt;&lt;/span&gt;&lt;/a&gt;<br/>
+          &lt;/div&gt; <br/>
+         &lt;/div&gt; <br/>
+        &lt;/div&gt; <br/>
+       &lt;/form&gt; <br/>
+      &lt;/div&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; <br/>
+    &lt;div class="col align-self-end"&gt;&lt;/div&gt; <br/>
+   &lt;/div&gt; <br/>
+  &lt;/div&gt; &lt;!-- reset password modal --&gt; <br/>
+  &lt;div class="modal fade" id="reset" tabindex="1" aria-labelledby="modal" aria-hidden="true"&gt; <br/>
+   &lt;div class="modal-dialog"&gt; <br/>
+    &lt;div class="modal-content"&gt; <br/>
+     &lt;div class="modal-header"&gt; <br/>
+      &lt;h5 class="modal-title" id="modal"&gt;Reset Password&lt;/h5&gt; &lt;button type="button" class="btn-close waves-effect" data-bs-dismiss="modal" aria-label="Close"&gt;&lt;/button&gt; <br/>
+     &lt;/div&gt; <br/>
+     &lt;form method="POST" action="https://www.phptravels.net/reset_password" id=""&gt; <br/>
+      &lt;div class="modal-body"&gt; <br/>
+       &lt;div class="input-group"&gt; <br/>
+        &lt;input type="text" placeholder="your@email.com" class="form-control" id="" name="email" required&gt; <br/>
+       &lt;/div&gt; <br/>
+      &lt;/div&gt; <br/>
+      &lt;div class="modal-footer"&gt; &lt;!--&lt;button type="button" class="btn btn-secondary" data-bs-dismiss="modal"&gt;Cancel&lt;/button&gt;--&gt; &lt;button type="submit" class="btn btn-primary ladda effect ladda-button waves-effect" data-style="zoom-in"&gt;&lt;span class="ladda-label"&gt;Reset&lt;/span&gt;&lt;span class="ladda-spinner"&gt;&lt;/span&gt;&lt;/button&gt; <br/>
+      &lt;/div&gt; <br/>
+     &lt;/form&gt; <br/>
+    &lt;/div&gt; <br/>
+   &lt;/div&gt; <br/>
+  &lt;/div&gt; <br/>
+  &lt;script&gt;<br/>
+if (document.URL == 'https://www.phptravels.net/login/reset/success'){ $(".reset-success").removeClass("d-none") };<br/>
+if (document.URL == 'https://www.phptravels.net/login/reset/fail'){ $(".reset-fail").removeClass("d-none") };<br/>
+if (document.URL == 'https://www.phptravels.net/login/failed'){ $(".failed").removeClass("d-none") };<br/>
+if (document.URL == 'https://www.phptravels.net/login/signup'){ $(".signup").removeClass("d-none") };<br/>
+<br/>
+/* fadeout alerts */<br/>
+$(document).ready(function () { window.setTimeout(function() {<br/>
+$(".alert").fadeTo(150, 0).slideUp(50, function(){ $(this).remove(); }); }, 3500) });<br/>
+&lt;/script&gt;&lt;!-- loadaing CSS --&gt; &lt;!-- start back-to-top --&gt; <br/>
+  &lt;div id="back-to-top"&gt; &lt;i class="la la-angle-up" title="Go top"&gt;&lt;/i&gt; <br/>
+  &lt;/div&gt; &lt;!-- end back-to-top --&gt; &lt;!-- ================================<br/>
+    START INFO AREA<br/>
+================================= --&gt; <br/>
+  &lt;section class="info-area info-bg padding-top-90px padding-bottom-20px"&gt; <br/>
+   &lt;div class="container"&gt; <br/>
+    &lt;div class="row"&gt; <br/>
+     &lt;div class="col-lg-4 responsive-column"&gt; &lt;a href="https://www.phptravels.net/contact" class="icon-box icon-layout-2 d-flex waves-effect"&gt; <br/>
+       &lt;div class="info-icon flex-shrink-0 bg-rgb text-color-2"&gt; &lt;i class="la la-phone"&gt;&lt;/i&gt; <br/>
+       &lt;/div&gt;&lt;!-- end info-icon--&gt; <br/>
+       &lt;div class="info-content pt-2"&gt; <br/>
+        &lt;h4 class="info__title"&gt;Need Help? Contact us&lt;/h4&gt; <br/>
+        &lt;p class="info__desc"&gt; Our support team available 24/7 &lt;/p&gt; <br/>
+       &lt;/div&gt;&lt;!-- end info-content --&gt; &lt;/a&gt;&lt;!-- end icon-box --&gt; <br/>
+     &lt;/div&gt;&lt;!-- end col-lg-4 --&gt; <br/>
+     &lt;div class="col-lg-4 responsive-column"&gt; <br/>
+      &lt;div class="icon-box icon-layout-2 d-flex"&gt; <br/>
+       &lt;div class="info-icon flex-shrink-0 bg-rgb-2 text-color-3"&gt; &lt;i class="la la-money"&gt;&lt;/i&gt; <br/>
+       &lt;/div&gt;&lt;!-- end info-icon--&gt; <br/>
+       &lt;div class="info-content pt-2"&gt; <br/>
+        &lt;h4 class="info__title"&gt;Secure Payments&lt;/h4&gt; <br/>
+        &lt;p class="info__desc"&gt; Remarkable and 99.9% service uptime &lt;/p&gt; <br/>
+       &lt;/div&gt;&lt;!-- end info-content --&gt; <br/>
+      &lt;/div&gt;&lt;!-- end icon-box --&gt; <br/>
+     &lt;/div&gt;&lt;!-- end col-lg-4 --&gt; <br/>
+     &lt;div class="col-lg-4 responsive-column"&gt; <br/>
+      &lt;div class="icon-box icon-layout-2 d-flex"&gt; <br/>
+       &lt;div class="info-icon flex-shrink-0 bg-rgb-3 text-color-4"&gt; &lt;i class="la la-times"&gt;&lt;/i&gt; <br/>
+       &lt;/div&gt;&lt;!-- end info-icon--&gt; <br/>
+       &lt;div class="info-content pt-2"&gt; <br/>
+        &lt;h4 class="info__title"&gt;Cancel Policy&lt;/h4&gt; <br/>
+        &lt;p class="info__desc"&gt; Cancellation made easy and automated &lt;/p&gt; <br/>
+       &lt;/div&gt;&lt;!-- end info-content --&gt; <br/>
+      &lt;/div&gt;&lt;!-- end icon-box --&gt; <br/>
+     &lt;/div&gt;&lt;!-- end col-lg-4 --&gt; <br/>
+    &lt;/div&gt;&lt;!-- end row --&gt; <br/>
+   &lt;/div&gt;&lt;!-- end container --&gt; <br/>
+  &lt;/section&gt;&lt;!-- end info-area --&gt; &lt;!-- ================================<br/>
+    END INFO AREA<br/>
+================================= --&gt; <br/>
+  &lt;section class="cta-area subscriber-area section-bg-2 padding-top-60px padding-bottom-60px"&gt; <br/>
+   &lt;div class="container"&gt; <br/>
+    &lt;div class="row align-items-center"&gt; <br/>
+     &lt;div class="col-lg-7"&gt; <br/>
+      &lt;div class="section-heading"&gt; <br/>
+       &lt;h2 class="sec__title font-size-30 text-white"&gt;Subscribe to see Secret Deals&lt;/h2&gt; <br/>
+      &lt;/div&gt;&lt;!-- end section-heading --&gt; <br/>
+     &lt;/div&gt;&lt;!-- end col-lg-7 --&gt; <br/>
+     &lt;div class="col-lg-5"&gt; <br/>
+      &lt;div class="subscriber-box"&gt; <br/>
+       &lt;div class="contact-form-action"&gt; &lt;!-- &lt;form action="#"&gt; --&gt; <br/>
+        &lt;div class="input-box"&gt; &lt;label class="label-text text-white"&gt;Enter email addresss&lt;/label&gt; <br/>
+         &lt;div class="form-group mb-0"&gt; &lt;span class="la la-envelope form-icon"&gt;&lt;/span&gt; <br/>
+          &lt;form role="search" onsubmit="return false;"&gt;&lt;/form&gt; <br/>
+          &lt;input type="email" class="form-control sub_email" id="exampleInputEmail1" placeholder="Enter your email"&gt; &lt;button class="theme-btn theme-btn-small submit-btn sub_newsletter waves-effect" id="email_subscribe"&gt;Subscribe&lt;/button&gt; &lt;span class="font-size-14 pt-1 text-white-50"&gt;&lt;i class="la la-lock mr-1"&gt;&lt;/i&gt;Don't worry your information is safe with us&lt;/span&gt; &lt;span class="font-size-14 pt-1"&gt;&lt;!--&lt;i class="la la-lock mr-1"&gt;&lt;/i&gt;--&gt; &lt;a class="newstext waves-effect" href="javascript:void(0);"&gt; <br/>
+            &lt;div class="wow fadeIn subscriberesponse"&gt;&lt;/div&gt; &lt;/a&gt; &lt;/span&gt; <br/>
+         &lt;/div&gt; <br/>
+        &lt;/div&gt; &lt;!-- &lt;/form&gt; --&gt; <br/>
+       &lt;/div&gt; <br/>
+      &lt;/div&gt;&lt;!-- end section-heading --&gt; <br/>
+     &lt;/div&gt;&lt;!-- end col-lg-5 --&gt; <br/>
+    &lt;/div&gt;&lt;!-- end row --&gt; <br/>
+   &lt;/div&gt;&lt;!-- end container --&gt; <br/>
+  &lt;/section&gt; <br/>
+  &lt;section class="footer-area section-bg padding-top-100px padding-bottom-30px"&gt; <br/>
+   &lt;div class="container"&gt; <br/>
+    &lt;div class="row"&gt; <br/>
+     &lt;div class="col-lg-3 responsive-column"&gt; <br/>
+      &lt;div class="footer-item"&gt; <br/>
+       &lt;div class="footer-logo padding-bottom-10px"&gt; &lt;a href="https://www.phptravels.net/" class="foot__logo waves-effect"&gt;&lt;img style="max-width: 150px;background:transparent" src="https://www.phptravels.net/api/uploads/global/logo.png" alt="logo"&gt;&lt;/a&gt; <br/>
+       &lt;/div&gt;&lt;!-- end logo --&gt; <br/>
+       &lt;ul class="list-items pt-3"&gt; <br/>
+        &lt;li&gt;&lt;strong&gt; +1-234-56789 &lt;/strong&gt;&lt;/li&gt; <br/>
+        &lt;li&gt;&lt;strong&gt;&lt;a href="mailto:info@travelagency.com" class=" waves-effect"&gt;info@travelagency.com&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt; <br/>
+        &lt;li&gt;&lt;a href="https://www.phptravels.net/contact" class=" waves-effect"&gt;&lt;strong&gt;Contact Us&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt; <br/>
+       &lt;/ul&gt; <br/>
+      &lt;/div&gt;&lt;!-- end footer-item --&gt; <br/>
+     &lt;/div&gt;&lt;!-- end col-lg-3 --&gt; <br/>
+     &lt;div class="col-lg-9 responsive-column"&gt; <br/>
+      &lt;ul class="foot_menu w-100"&gt; &lt;!-- header manue --&gt; <br/>
+       &lt;li class="footm"&gt; &lt;a href="company" class=" waves-effect"&gt;Company &lt;i class="la la-angle-down"&gt;&lt;/i&gt;&lt;/a&gt; <br/>
+        &lt;ul class="dropdown-menu-item"&gt; <br/>
+         &lt;li&gt;&lt;a href="https://www.phptravels.net/about-us" class=" waves-effect"&gt;About Us&lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="https://www.phptravels.net/terms-of-use" class=" waves-effect"&gt;Terms of Use&lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="https://www.phptravels.net/cookies-policy" class=" waves-effect"&gt;Cookies policy&lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="https://www.phptravels.net/privacy-policy" class=" waves-effect"&gt;Privacy Policy&lt;/a&gt; &lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;/li&gt; <br/>
+       &lt;li class="footm"&gt; &lt;a href="supprt" class=" waves-effect"&gt;Support &lt;i class="la la-angle-down"&gt;&lt;/i&gt;&lt;/a&gt; <br/>
+        &lt;ul class="dropdown-menu-item"&gt; <br/>
+         &lt;li&gt;&lt;a href="https://www.phptravels.net/become-supplier" class=" waves-effect"&gt;Become Supplier&lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="https://www.phptravels.net/faq" class=" waves-effect"&gt;FAQ&lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="https://www.phptravels.net/booking-tips" class=" waves-effect"&gt;Booking Tips&lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="https://www.phptravels.net/how-to-book" class=" waves-effect"&gt;How to Book&lt;/a&gt; &lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;/li&gt; <br/>
+       &lt;li class="footm"&gt; &lt;a href="services" class=" waves-effect"&gt;Services &lt;i class="la la-angle-down"&gt;&lt;/i&gt;&lt;/a&gt; <br/>
+        &lt;ul class="dropdown-menu-item"&gt; <br/>
+         &lt;li&gt;&lt;a href="https://www.phptravels.net/file-a-claim" class=" waves-effect"&gt;File a claim&lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="https://www.phptravels.net/offers" class=" waves-effect"&gt;Last minute deals&lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="https://www.phptravels.net/signup-supplier" class=" waves-effect"&gt;Add your business&lt;/a&gt; &lt;/li&gt; <br/>
+         &lt;li&gt;&lt;a href="https://www.phptravels.net/careers" class=" waves-effect"&gt;Careers and Jobs&lt;/a&gt; &lt;/li&gt; <br/>
+        &lt;/ul&gt; &lt;/li&gt; <br/>
+      &lt;/ul&gt; <br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt;&lt;!-- end row --&gt; <br/>
+    &lt;div class="row align-items-center"&gt; <br/>
+     &lt;div class="col-lg-8"&gt; <br/>
+      &lt;div class="term-box footer-item"&gt; <br/>
+       &lt;ul class="list-items list--items d-flex align-items-center"&gt;<br/>
+         All Rights Reserved by All Rights Reserved by PHPTRAVELS <br/>
+       &lt;/ul&gt; <br/>
+      &lt;/div&gt; <br/>
+     &lt;/div&gt;&lt;!-- end col-lg-8 --&gt; <br/>
+     &lt;div class="col-lg-4"&gt; <br/>
+      &lt;div class="footer-social-box text-right"&gt; <br/>
+       &lt;ul class="social-profile"&gt; <br/>
+        &lt;li&gt;&lt;a href="https://www.facebook.com/travelbusiness" target="_blank" class=" waves-effect"&gt;&lt;i class="lab la-facebook"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;li&gt;&lt;a href="https://twitter.com/phptravels" target="_blank" class=" waves-effect"&gt;&lt;i class="lab la-twitter"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;li&gt;&lt;a href="https:///www.youtube.com/phptravels" target="_blank" class=" waves-effect"&gt;&lt;i class="lab la-youtube"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;li&gt;&lt;a href="https://wa.me/13333334444" target="_blank" class=" waves-effect"&gt;&lt;i class="lab la-whatsapp"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;li&gt;&lt;a href="https://www.google.com/maps/dir//phptravels+google+maps/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x391905dd3eef0e45:0x25db87dacf506c66?sa=X&amp;ved=2ahUKEwjn76Pn55DkAhWARhUIHVEvAEcQ9RcwGHoECA4QDg" target="_blank" class=" waves-effect"&gt;&lt;i class="lab la-google-plus"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; <br/>
+        &lt;li&gt;&lt;a href="https://www.instagram.com/phptravels_insta/" target="_blank" class=" waves-effect"&gt;&lt;i class="lab la-instagram"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; <br/>
+       &lt;/ul&gt; <br/>
+      &lt;/div&gt; <br/>
+     &lt;/div&gt;&lt;!-- end col-lg-4 --&gt; <br/>
+    &lt;/div&gt;&lt;!-- end row --&gt; <br/>
+   &lt;/div&gt;&lt;!-- end container --&gt; <br/>
+   &lt;div class="section-block mt-4"&gt;&lt;/div&gt; <br/>
+   &lt;div class="container"&gt; <br/>
+    &lt;div class="row align-items-center"&gt; <br/>
+     &lt;div class="col-lg-12"&gt; <br/>
+      &lt;div class="copy-right-content d-flex align-items-center justify-content-end padding-top-30px"&gt; <br/>
+       &lt;h3 class="font-size-15" style="width:100%"&gt; &lt;!-- ********************   Removing powered by linkback will result to cancellation of your support service.    ********************  --&gt; <br/>
+        &lt;div class="d-none d-md-block" style="padding:0px;position:relative"&gt; <br/>
+         &lt;div class="container"&gt; <br/>
+          &lt;div class="text-center"&gt;<br/>
+           Powered by &nbsp;&lt;a href="http://www.phptravels.com" target="_blank" class=" waves-effect"&gt; &lt;img src="https://www.phptravels.net/api/uploads/global/phptravels.png" style="height:22px;display: inline-block; -webkit-transform: translateY(0px);transform: translateY(0px);" height="22" alt="PHPTRAVELS"&gt; &lt;strong&gt;&nbsp;PHPTRAVELS&lt;/strong&gt;&lt;/a&gt; v8<br/>
+          &lt;/div&gt; <br/>
+         &lt;/div&gt; <br/>
+        &lt;/div&gt; &lt;!-- ********************   Removing powered by linkback will result to cancellation of your support service.    ********************  --&gt; &lt;/h3&gt; <br/>
+       &lt;img src="https://www.phptravels.net/app/themes/default/assets/img/payment-img.png" alt=""&gt; <br/>
+      &lt;/div&gt;&lt;!-- end copy-right-content --&gt; <br/>
+     &lt;/div&gt;&lt;!-- end col-lg-5 --&gt; <br/>
+    &lt;/div&gt;&lt;!-- end row --&gt; <br/>
+   &lt;/div&gt;&lt;!-- end container --&gt; <br/>
+  &lt;/section&gt; <br/>
+  &lt;div id="cookie_disclaimer" data-wow-duration="0.5s" data-wow-delay="5s" role="dialog" class="wow  fadein_ fadeIn cc-window cc-banner cc-type-info cc-theme-block cc-color-override--1961008818"&gt; <br/>
+   &lt;div class="container"&gt; <br/>
+    &lt;div class="cookies_bg"&gt; &lt;span id="cookieconsent:desc" class="cc-message"&gt;This website uses cookies to ensure you get the best experience on our website &lt;a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link waves-effect" href="https://www.phptravels.net/cookies-policy" rel="noopener noreferrer nofollow" target="_blank"&gt;Learn more&lt;/a&gt;&lt;/span&gt; <br/>
+     &lt;div class="cc-compliance text-right float-right"&gt; &lt;button class="cc-btn cc-dismiss waves-effect" id="cookie_stop"&gt;Got It&lt;/button&gt;<br/>
+     &lt;/div&gt; <br/>
+    &lt;/div&gt; <br/>
+   &lt;/div&gt; <br/>
+  &lt;/div&gt; <br/>
+  &lt;script type="text/javascript"&gt;<br/>
+$(function(){<br/>
+     $('#cookie_stop').click(function(){<br/>
+        $('#cookie_disclaimer').slideUp();<br/>
+        var nDays = 999;<br/>
+        var cookieName = "disclaimer";<br/>
+        var cookieValue = "true";<br/>
+        var today = new Date();<br/>
+        var expire = new Date();<br/>
+        expire.setTime(today.getTime() + 3600000*24*nDays);<br/>
+        document.cookie = cookieName+"="+escape(cookieValue)+";expires="+expire.toGMTString()+";path=/";<br/>
+     });<br/>
+<br/>
+});<br/>
+&lt;/script&gt; &lt;!-- javascript resouces and libs --&gt; <br/>
+  &lt;script src="https://www.phptravels.net/app/themes/default/assets/js/jquery-ui.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="https://www.phptravels.net/app/themes/default/assets/js/bootstrap.bundle.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="https://www.phptravels.net/app/themes/default/assets/js/moment.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="https://www.phptravels.net/app/themes/default/assets/js/owl.carousel.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="https://www.phptravels.net/app/themes/default/assets/js/jquery.fancybox.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="https://www.phptravels.net/app/themes/default/assets/js/jquery.countTo.min.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="https://www.phptravels.net/app/themes/default/assets/js/animated-headline.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="https://www.phptravels.net/app/themes/default/assets/js/quantity-input.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="https://www.phptravels.net/app/themes/default/assets/js/select2.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="https://www.phptravels.net/app/themes/default/assets/js/main.js"&gt;&lt;/script&gt; <br/>
+  &lt;script src="https://www.phptravels.net/app/themes/default/assets/js/app.js"&gt;&lt;/script&gt; <br/>
+  &lt;script&gt;<br/>
+// homepage tab rearrange and make first one active default<br/>
+$(".listitems li").sort(sort_li).appendTo('.listitems'); function sort_li(a, b) { return ($(b).data('position')) &lt; ($(a).data('position')) ? 1 : -1;};<br/>
+$('.nav-tabs .nav-item:first-child button').addClass('active');<br/>
+$('.search_tabs .tab-pane:first-child').addClass('show active');<br/>
+<br/>
+// select 2 location init for hotels search <br/>
+var $ajax = $(".city");<br/>
+function formatRepo(t) {  return t.loading ? t.text : (console.log(t), '&lt;i class="flag ' + t.icon.toLowerCase() + '"&gt;&lt;/i&gt;' + t.text) }<br/>
+function formatRepoSelection(t) { return t.text }<br/>
+$ajax.select2({<br/>
+    ajax: {<br/>
+        url: "https://www.phptravels.net/hotels_locations",<br/>
+        dataType: "json",<br/>
+        data: function(t) {<br/>
+            return {<br/>
+                q: $.trim(t.term)<br/>
+            }<br/>
+        },<br/>
+        processResults: function(t) {<br/>
+            var e = [];<br/>
+            return t.forEach(function(t) {<br/>
+                e.push({<br/>
+                    id: t.id,<br/>
+                    text: t.text,<br/>
+                    icon: t.icon<br/>
+                })<br/>
+            }), console.log(e), {<br/>
+                results: e<br/>
+            }<br/>
+        },<br/>
+        cache: !0<br/>
+    },<br/>
+    escapeMarkup: function(t) {<br/>
+        return t<br/>
+    },<br/>
+    minimumInputLength: 3,<br/>
+    templateResult: formatRepo,<br/>
+    templateSelection: formatRepoSelection,<br/>
+    dropdownPosition: 'below',<br/>
+    cache: !0<br/>
+});<br/>
+&lt;/script&gt; <br/>
+  &lt;script&gt;<br/>
+$('.select_').select2({ placeholder: { id: '1', text: 'Select Category' } });<br/>
+$('.select2-container').css('width','100%')<br/>
+$('#select').select2({ placeholder: { id: '1', text: 'Select Category' } });<br/>
+<br/>
+$('#email_subscribe').click(function() { <br/>
+    let S_email = $('#exampleInputEmail1').val();<br/>
+        if(S_email != 0)<br/>
+        {<br/>
+            if(isValidEmailAddress(S_email))<br/>
+            {$.ajax({type: "GET",<br/>
+                url: "https://www.phptravels.net/subscribe",<br/>
+                data: {S_email:S_email},<br/>
+                success: function(response)<br/>
+                {res= JSON.parse(response);<br/>
+                if (res.error) {<br/>
+                $('.wow').text("Please add email!");<br/>
+                $(".newstext").fadeIn(3000);$(".newstext").fadeOut(3000);<br/>
+                }else{if(res.status == true){<br/>
+                $('.wow').text("Thank you for subscription");<br/>
+                $(".newstext").fadeIn(3000);$(".newstext").fadeOut(3000);<br/>
+                $('#exampleInputEmail1').val('');<br/>
+                }else{<br/>
+                $('.wow').text("Email exist");<br/>
+                $(".newstext").fadeIn(3000);$(".newstext").fadeOut(3000);<br/>
+                $('#exampleInputEmail1').val('');}}}<br/>
+                });<br/>
+            } else {<br/>
+            $('.wow').text("Please add correct email!");<br/>
+            $(".newstext").fadeIn(3000);$(".newstext").fadeOut(3000);<br/>
+            }<br/>
+        } else {<br/>
+            $('.wow').text("Please add email!");<br/>
+            $(".newstext").fadeIn(3000);$(".newstext").fadeOut(3000);}<br/>
+    });<br/>
+<br/>
+function isValidEmailAddress(emailAddress) {<br/>
+var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);<br/>
+return pattern.test(emailAddress);<br/>
+}<br/>
+&lt;/script&gt; <br/>
+  &lt;link rel="stylesheet" href="https://www.phptravels.net/modules/app.css"&gt; <br/>
+  &lt;script type="text/javascript"&gt;(function(){window['__CF$cv$params']={r:'71f5647faf4c4cdd',m:'m2Ka_YlxC0EnfrucUKYqY6o.y1xSQ.xqEj.atQqZ0qM-1655905193-0-AdLSD/uLveI97PVhqYxmCWSrIWoeNyvC9SRnRewonKIAJC5Rktf57rUbnYAcexnO3IZtDRjB0aM3/bvPFOsEwstPaR0jj7dQ0hAqJTR5w1LYg81VgcJYkmBxdUxjIklAXQ==',s:[0x67a85a8f8d,0xf713ea4550],u:'/cdn-cgi/challenge-platform/h/g'}})();&lt;/script&gt; <br/>
+ &lt;/body&gt;<br/>
+&lt;/html&gt;</code></pre></div></body></html>

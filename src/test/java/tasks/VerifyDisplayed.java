@@ -1,7 +1,6 @@
 package tasks;
 
-import Potentivio.pageobjects.HireArtistPageObjects;
-import Potentivio.pageobjects.PotentivioPIMPageObjects;
+import PHPTravel.pageobjects.Checkpoint;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.ensure.Ensure;
@@ -14,11 +13,8 @@ public class VerifyDisplayed {
     public static Performable element(String elementType) throws Exception{
         Target element;
         switch (elementType) {
-            case "Artist List":
-                element = HireArtistPageObjects.ARTIST_LIST;
-                break;
-            case "Success Register":
-                element = PotentivioPIMPageObjects.SUCCESS_REGISTER;
+            case "Welcome Back":
+                element = Checkpoint.WELCOME_BACK;
                 break;
             default:
                 throw new Exception("There is element type: " + elementType);

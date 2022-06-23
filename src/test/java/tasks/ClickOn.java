@@ -1,8 +1,6 @@
 package tasks;
 
-import Potentivio.pageobjects.HireArtistPageObjects;
-import Potentivio.pageobjects.PotentivioLoginPageObjects;
-import Potentivio.pageobjects.PotentivioRegisterPageObjects;
+import PHPTravel.pageobjects.*;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
@@ -16,14 +14,29 @@ public class ClickOn {
         Target button;
 
         switch (buttonType) {
-            case "Cafe Owner":
-                button = PotentivioLoginPageObjects.CAFE_OWNER_BUTTON;
+            case "Passenger":
+                button = BookingFlightPageObjects.PASSENGER;
                 break;
-            case "Login Cafe Owner":
-                button = PotentivioLoginPageObjects.LOGIN_CAFE_BUTTON;
+            case "Search Flight":
+                button = BookingFlightPageObjects.SEARCH_FLIGHT;
                 break;
-            case "Register Cafe Owner":
-                button = PotentivioRegisterPageObjects.REGISTER_CAFE_BUTTON;
+            case "Departure":
+                button = BookingFlightPageObjects.DEPARTURE;
+                break;
+            case "Submit":
+                button = BookingHotelPageObjects.SUBMIT;
+                break;
+            case "Check Out":
+                button = BookingHotelPageObjects.CHECK_OUT;
+                break;
+            case "Check In":
+                button = BookingHotelPageObjects.CHECK_IN;
+                break;
+            case "City Name":
+                button = BookingHotelPageObjects.CITY_NAME;
+                break;
+            case "Login Button":
+                button = PHPTravelPageObjects.LOGIN_BUTTON;
                 break;
             default:
                 throw new Exception("There is no button type: " + buttonType);

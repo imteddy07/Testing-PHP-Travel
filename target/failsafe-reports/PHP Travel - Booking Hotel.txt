@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: PHP Travel - Booking Hotel
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14.685 s <<< FAILURE! - in PHP Travel - Booking Hotel
+PHP Travel - Booking Hotel.User successfully booking hotel  Time elapsed: 14.685 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [{actor} select Checkout Date] is defined with 0 parameters at 'PHPTravel.stepdefinitions.BookHotelStepDef.iSelectCheckoutDate()'.
+However, the gherkin step has 1 arguments:
+ * I
+Step text: I select Checkout Date
+
